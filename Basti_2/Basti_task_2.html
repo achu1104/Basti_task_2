@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hope for All - NGO</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 20px;
+    }
+
+    /* Home Section */
+    .home {
+      text-align: center;
+      background-color: #e0f7fa;
+      padding: 30px 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 10px;
+      border-radius: 50%;
+    }
+
+    .home h1 {
+      font-size: 2em;
+      color: #00796b;
+    }
+
+    .home p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    /* Form Section */
+    .form-section {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+    .form-section h2 {
+      margin-bottom: 15px;
+      color: #00796b;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    form input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    form button {
+      padding: 10px;
+      background-color: #00796b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #004d40;
+    }
+
+    /* About Section */
+    .about {
+      background-color: #fff9c4;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .about h2 {
+      color: #f57f17;
+      margin-bottom: 10px;
+    }
+
+    .about p {
+      font-size: 1em;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      .home h1 {
+        font-size: 1.5em;
+      }
+
+      form {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Home Section -->
+  <header class="home">
+    <img src="https://t4.ftcdn.net/jpg/02/80/09/36/240_F_280093663_PVPOnF8U7hQa9GJe1KhF4QkNqkzNpUpD.jpg" alt="NGO Logo" class="logo" />
+    <h1>Hope for All</h1>
+    <p>We empower underprivileged communities through education and healthcare.</p>
+  </header>
+
+  <!-- Volunteer Form Section -->
+  <section class="form-section">
+    <h2>Volunteer With Us</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required />
+      <input type="tel" placeholder="Contact Number" required />
+      <input type="text" placeholder="City" required />
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="about">
+    <h2>About Us</h2>
+    <p>
+      Hope for All is a non-profit organization dedicated to making quality education and primary healthcare accessible to marginalized communities across India. We believe in equal opportunities for all and work with passionate volunteers to achieve our mission.
+    </p>
+  </section>
+
+</body>
+</html>
